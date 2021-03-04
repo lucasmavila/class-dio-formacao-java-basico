@@ -11,7 +11,7 @@ public class Exemplo009 {
 
         Date agora = new Date();
 
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat formatter = new SimpleDateFormat("DD/MM/YYYY HH:MM:SS:MMM");
 
         String dataFormatada = formatter.format(agora);
 
